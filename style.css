@@ -1,0 +1,13 @@
+h1 {
+    text-shadow: 2px 2px #ffa07a;
+    text-decoration: underline;
+}
+
+.unique-class {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.blue-text {
+    color: aquamarine;
+}
