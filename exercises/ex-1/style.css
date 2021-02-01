@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Domine;
+    src: url('../../fonts/Domine-Bold.ttf');
+  }
+
+@font-face {
+    font-family: Prata;
+    src: url('../../fonts/Prata.ttf');
+  }
+
+  h1 {
+      font-family: 'Domine';
+  }
+
+  p {
+      font-family: 'Prata';
+      font-size: large;
+      text-shadow: 0 0 5px rgb(255, 238, 204);
+      color: rgb(148, 168, 224);
+      text-align: center;
+  }
+  
+  .normal {
+      color: rgb(255, 208, 56);
+      text-shadow: 0 0 7px rgb(252, 225, 172);
+      font-style: oblique;
+  }
+
+ 
