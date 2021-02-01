@@ -1,0 +1,117 @@
+@font-face {
+    font-family: cookie;
+    src: url('../../fonts/cookie.ttf');
+  }
+  @font-face {
+    font-family: sacramento;
+    src: url('../../fonts/Sacramento.ttf');
+  }
+  @font-face {
+    font-family: sofia;
+    src: url('../../fonts/Sofia.ttf');
+  }
+  @font-face {
+    font-family: domine;
+    src: url('../../fonts/Domine-Bold.ttf');
+  }
+  @font-face {
+    font-family: prata;
+    src: url('../../fonts/Prata.ttf');
+  }
+
+a {
+    font-size: large;
+}
+
+p, h2 {
+    text-align: center;
+}
+.cookie {
+font-family: 'cookie';
+}
+.sacramento { 
+    font-family: 'sacramento';
+}
+.sofia { 
+    font-family: 'sofia';
+}
+.domine { 
+    font-family: 'domine';
+}
+.prata { 
+    font-family: 'prata';
+}
+.section-one {
+    font-size: large;
+    color: indianred;
+}
+.section-two {
+    font-size: small;
+    color: rgb(44, 29, 29);
+    background-color: ivory;
+}
+.section-three {
+    font-weight: bolder;
+    text-shadow: rgb(255, 145, 0);
+}
+
+
+
+.partone {
+    font-family: 'domine';
+    font-weight: bold;
+    text-shadow:0 0 5px rgb(49, 20, 58)
+}
+.parttwo {
+    font-size: larger;
+    font-family: 'cookie';
+    color: rgb(207, 91, 13);
+    text-shadow:0 0 5px rgb(219, 219, 219);
+}
+.partthree {
+    font-family: 'prata';
+    font-style: italic;
+    font-size: large;
+}
+.partfour {
+    font-family: 'sofia';
+    background-color: slategrey;
+    font-weight: bolder;
+}
+
+
+
+.fourtrialone {
+    color: rgb(202, 69, 46);
+    font-family: "sacramento";
+    font-size: larger;
+    background-color: snow;
+
+}
+.fourtrialtwo {
+    color: rgb(174, 225, 255);
+    font-size: larger;
+}
+.fourtrialthree {
+    color: rgb(68, 154, 180);
+    font-family: 'prata';
+    text-shadow:0 0 15px rgb(0, 0, 0);
+}
+.darkblue {
+    color: rgb(40, 58, 116);
+    font-weight: bolder;
+    text-shadow: 0 0 7px rgb(48, 37, 37);
+    font-size: larger;
+}
+.darkbrown {
+    color: rgb(94, 48, 48);
+    font-weight: bolder;
+    text-shadow: 0 0 7px bisque;
+    font-size: larger;
+}
+.beige {
+    color: bisque;
+    font-weight: bolder;
+    text-shadow: 0 0 5px rgb(40, 58, 116);
+    font-size: larger;
+}
