@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: cadetblue;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: hotpink;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: lightskyblue;
+}
+.gengrid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 4fr;
+    background: rgb(186, 255, 212);
+}
+header {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    background: rgb(255, 120, 66);
+}
+.logobox {
+   grid-column: 1/2;
+    height: 80px;
+    background: rgb(69, 66, 255);
+}
+.navigation {
+    grid-column: 4/6;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    background: rgb(66, 255, 82);
+}
+.home {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: rgb(190, 167, 255);
+}
+.about {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: rgb(255, 139, 193);
+}
+.contact {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: rgb(96, 116, 170);
+}
+.portfolio {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background: rgb(124, 22, 70);
+}
+.blog {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: rgb(161, 167, 161);
+}
+.exercises {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background: rgb(62, 153, 115);
+}
+.projects {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    background: rgb(250, 47, 47);
+}
+.landingbox {
+    grid-column: 2/5;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+.lucia {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: rgb(47, 250, 115);
+}   
+.perfumo {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background: rgb(250, 145, 47);
+}   
+.flexc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexclow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flexchigh {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
