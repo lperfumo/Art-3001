@@ -3,7 +3,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background: url(../Art-3001/img/background.png);
+    background: url(img/background.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(74, 113, 122);
@@ -204,9 +204,9 @@ a {
 }
 @font-face {
     font-family: vidaloka;
-    src: url('../Art-3001/fonts/vidaloka.ttf');
+    src: url('fonts/vidaloka.ttf');
 }
 @font-face {
     font-family: news-cycle;
-    src: url('../Art-3001/fonts/news-cycle-reg.ttf');
+    src: url('fonts/news-cycle-reg.ttf');
 }
