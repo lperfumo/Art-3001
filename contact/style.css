@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(76, 115, 124);
+}
+.wrapper {
+    width: 100%;
+    height: 100%; 
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.gengrid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;  
+}
+header {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;  
+    border-radius: 25px;
+    border: 2px solid rgb(124, 148, 153);
+    height: 65px;
+}
+.contacttop {
+    grid-column: 1/3;
+    font-family: 'vidaloka';
+    font-size: xxx-large;
+    font-weight: lighter;
+    color: rgb(27, 49, 49);
+    padding-left: 40px;
+}
+.navigation {
+    grid-column: 4/6;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ;
+}
+.home {
+    font-family: 'news-cycle';
+    font-size: x-large;
+    font-weight: lighter;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: rgb(27, 49, 49);
+}
+.about {
+    font-family: 'news-cycle';
+    font-size: x-large;
+    font-weight: lighter;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: rgb(27, 49, 49);
+}
+.contact {
+    font-family: 'news-cycle';
+    font-size: x-large;
+    font-weight: lighter;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: rgb(27, 49, 49);
+}
+.contacttext {
+    position: absolute;
+    font-family: 'vidaloka';
+    height: 250px;
+    font-size: 80px;
+    left: 50px;
+    width: calc(100% - 100px) ;
+    background-color: rgb(243, 251, 252);
+    padding: 5px;
+    text-align: center;
+    color: rgb(45, 58, 70);
+    border-radius: 10px;
+    font-weight: 100;
+}
+.information {
+    font-family: 'news-cycle';
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(27, 49, 49);
+}
+.flexc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexcb{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.letterspace {
+    letter-spacing: 2px;
+}
+.bigletterspace {
+    letter-spacing: 1px;
+}
+a:link {
+    text-decoration: none;
+}
+a {
+    color: rgb(30, 45, 58);
+}
+@font-face {
+    font-family: vidaloka;
+    src: url('../fonts/vidaloka.ttf');
+}
+@font-face {
+    font-family: news-cycle;
+    src: url('../fonts/news-cycle-reg.ttf');
+}
