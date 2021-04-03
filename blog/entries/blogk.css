@@ -14,8 +14,14 @@
     font-family: cookie;
     src: url('../../fonts/cookie.ttf');
   }
-
-
+  @font-face {
+    font-family: wonca;
+    src: url('../../fonts/wonca.ttf');
+  }
+  @font-face {
+    font-family: vidaloka;
+    src: url('../../fonts/vidaloka.ttf');
+  }
   body {
     background: linear-gradient(to bottom, #ffe8a9 0%, #ffd8cc 100%);
 }
@@ -44,8 +50,9 @@
   .one, .two, .three, .four {
     background: rgb(255, 230, 162);
     border-radius: 25px;
-    font-family: 'prata';
-    font-size: small;
+    font-family: 'vidaloka';
+    font-size: medium;
+    
     
   }
   a:link {
