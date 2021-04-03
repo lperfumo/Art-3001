@@ -16,6 +16,9 @@
   }
 
 
+  body {
+    background: linear-gradient(to bottom, #ffe8a9 0%, #ffd8cc 100%);
+}
 #div1 {
     position: absolute;
     left: 50px;
@@ -51,3 +54,10 @@
   a {
     color: rgb(255, 124, 17);
   }
+ .growtwo { transition: all .5s ease-in-out; }
+ .growtwo:hover { transform: scale(1.2); }
+
+ .boxes { transition: all .5s ease-in-out; }
+ .boxes:hover {
+    background: rgb(252, 174, 85);
+ } 
