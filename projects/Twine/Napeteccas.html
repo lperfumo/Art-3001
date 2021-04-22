@@ -9,43 +9,181 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Napeteccas.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Napeteccas" startnode="1" creator="Twine" creator-version="2.3.13" ifid="0DEB8537-DF14-494C-A260-ABDA34A1547B" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Home " tags="" position="678,50" size="100,100">=&gt;&lt;=
-Welcome to the Town of Napeteccas
+<tw-storydata name="Napeteccas" startnode="1" creator="Twine" creator-version="2.3.13" ifid="0DEB8537-DF14-494C-A260-ABDA34A1547B" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story[tags~="home"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Home.png");
+  background-size: cover;
+}
+tw-story[tags~="community"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Community_Burrow.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="map"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Bulletin_Board.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="amara"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Amara.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="roman"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Roman.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="elsie"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/elsie.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="ember"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Ember.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="ayden"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Ayden.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="willow"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/willow.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="finn"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Finn.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="evie"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Evie_.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="newhome"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/New_Home.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="sawyer"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/sawyer.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="empty"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/Empty.png") center center no-repeat;
+  background-size: cover;
+}
+tw-story[tags~="dark"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/getting_darker.png") center center no-repeat;
+  background-size: cover;
+}
 
-&quot;We are so happy you decided to join our community. I am Willow the prairie dog, and I run the town council here in the burrow. I would love to give you a tour, but I am currently very busy. Although, this will be a wonderful opportunity for you to meet your other neighbors. We are such a close-knit community that we decided to connect all our homes. You will first head down the path to the [[community burrow]] where all of us here go to enjoy time together outside our homes. I need to head out now, but all of us here are glad to see a new face.&quot;</tw-passagedata><tw-passagedata pid="2" name="community burrow" tags="" position="677,175" size="100,100">Community Burrow 
+tw-story[tags~="confused"] {
+  background: url("https://lperfumo.github.io/Art-3001/img/confused.png") center center no-repeat;
+  background-size: cover;
+}
+tw-sidebar {
+	display: none;
+}
+tw-link {
+	color: lightskyblue
+}
+tw-link:hover {
+	color: steelblue
+}
+.passage {
+  margin-top: -80px;
+}
+.message {
+  font-family: 'vidaloka';
+  transition: all 4s ease-in-out;
+}
+.message:hover {
+  transform: scale(1.3); 
+  background-position: 0 100%;
+}
+.header {
+  font-family: 'vidaloka';
+  transition: all 5s ease-in-out;
+}
+.header:hover {
+  transform: scale(1.3); 
+  background-position: 0 100%;
+}
+@font-face {
+    font-family: vidaloka;
+    src: url('../../fonts/vidaloka.ttf');
+}
+ 
+.message {
+font-size: 13px
+}
+.header {
+  font-size: 30px
+}
+.snakemessage {
+font-size: 17px
 
-As you walk in, there is a [[bulletin board]] across the room that displays the town map. You look down and see a variety of tracks from different animals. As you look around the room, there seems to be three passages. [[Amara the badger]] seems to be home since you hear chatter. You smell something wonderful coming from [[Roman the armadillo]]&#39;s burrow. [[Elsie the raccoon]] doesn&#39;t seem to be home but it wouldn&#39;t hurt to check. All paths will take you to your new home.</tw-passagedata><tw-passagedata pid="3" name="bulletin board" tags="" position="503,172" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="Amara the badger" tags="" position="525,301" size="100,100">Amara the Badger&#39;s Home
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Home " tags="home" position="678,48" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#Welcome to the Town of Napeteccas]
 
-As you walk through the passage, you begin to see many leaves coating the floor. As you enter, everything is very well organized. Your feet feel relaxed as you step on the leaves that cusheon the floor. 
-&quot;Hello new neighbor. I&#39;m sure you will like it here. We try our best to take care of one another. If you would like, I would be glad to help you set up your new home.&quot;
-You thank Amara for the offer and praise how beautiful her home is. You decide to keep going. You can go check on the map in the [[community burrow]]. [[Roman the armadillo]] has a wonderful aroma coming from his home. You can pass through [[Willow the prairie dog]]&#39;s room even though she seem to be working outside her home still. You can check up on [[Ayden the gopher]] to see if he found anything interesting. You could visit [[Ember the groundhog]] who you have heard helps to expand Napeteccas.</tw-passagedata><tw-passagedata pid="5" name="Roman the armadillo" tags="" position="678,300" size="100,100">Roman the Armadillo&#39;s Home
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&quot;We are so happy you decided to join our community. I am Willow the prairie dog, and I run the town council here in the burrow. I would love to give you a tour, but I am currently very busy. Although, this will be a wonderful opportunity for you to meet your other neighbors. We are such a close-knit community that we decided to connect all our homes. You will first head down the path to the [[community burrow]] where all of us here go to enjoy time together. I need to head out now, but all of us here are glad to see a new face.&quot;]</tw-passagedata><tw-passagedata pid="2" name="community burrow" tags="community" position="671,172" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Community Burrow&#39;&#39;]&lt;/div&gt;
 
-As you walk through the passage, you realize that you are hungry. There is an amazing smell of food as you get closer. You walk in to see a lot of baked goods around Roman.
-&quot;Hello neighbor. I hope you are finding your way through our burrow well. If you want to grab a bite you are free to take anything you would like. As you can tell, I love eating sweet treats.&quot;
-You take a crumb from what seems to be a muffin and head on your way. You can head to the [[community burrow]] to get directions. You can pop in to [[Elsie the raccoon]]&#39;s home and look around. You can go visit [[Evie the rabbit]]&#39;s home but it seems like she doesn&#39;t live in Napeteccas anymore. You can head down to [[Finn the skunk]]&#39;s home to see how he are doing. You can go to [[Willow the prairie dog]]&#39;s home. You can go to chat with [[Amara the badger]].</tw-passagedata><tw-passagedata pid="6" name="Elsie the raccoon" tags="" position="828,300" size="100,100">Elsie the Raccoon&#39;s Home
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you walk in, there is a [[bulletin board ]] across the room that displays the town map. You look down and see a variety of tracks from different animals. As you look around the room, there seems to be three passages. [[Amara the badger]] seems to be home since you hear chatter. You smell something wonderful coming from [[Roman the armadillo]]&#39;s burrow. [[Elsie the raccoon]] doesn&#39;t seem to be home but it wouldn&#39;t hurt to check. All paths will take you to your new home.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="bulletin board " tags="map" position="501,171" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Town of Napeteccas Map&#39;&#39;]&lt;/div&gt;
 
-As you pass through the tunnel you feel like you are intruding into a stranger&#39;s home. However, you see a picture of Elsie in the room and seem to recognize her. As you walk around, you hear something coming from the other side of the walls. You assume its from one of your neighbor&#39;s homes. You become a little uncomfortable and realize that you should keep on moving forward. You can go back to the [[community burrow]]. You can head to what used to be [[Sawyer the mole]]&#39;s home. You can go see [[Evie the rabbit]]&#39;s home which seems to be completely dark. You can visit [[Roman the armadillo]] in his home which smells tempting.</tw-passagedata><tw-passagedata pid="7" name="Willow the prairie dog" tags="" position="578,449" size="100,100">Willow the Prairie Dog&#39;s Home
-As you enter the room, you see just how frantic Willow must be with work. There are papers and dirt lying everywhere. You pick up a couple papers off the floor. You wonder how much stress she must be dealing with. You decide that you will join the next community council meeting and volunteer to help out to take some pressure off of her hands. You can go check what kind of food [[Roman the armadillo]] has in his home. You can go talk to [[Amara the badger]] about your new home. Your can go to [[Ayden the gopher]]&#39;s home. You can go to [[Finn the skunk]]&#39;s inviting home.</tw-passagedata><tw-passagedata pid="8" name="Ayden the gopher" tags="" position="439,449" size="100,100">Ayden the Gopher&#39;s Home
-&quot;Hello. I hope the move to your new home was easy. I have a lot of food here so feel free to take anything you would like. I normally collect food for the burrow. I know it isn&#39;t easy moving to a new burrow so if there is anything I can do to take away any stress, just ask. It seems like a lot of the neighbors are heading out quickly without a warning recently and we hope that they didn&#39;t feel cut off from the community. We just want you to know that we hope you stay with us and feel like you belong.&quot;
-You thank Ayden for his kind words and pick up some food. You can go to see [[Amara the badger]]. You can talk to [[Ember the groundhog]]. You can go check into you [[new home]]. You can to visit [[Willow the prairie dog]]&#39;s home.</tw-passagedata><tw-passagedata pid="9" name="Ember the groundhog" tags="" position="301,450" size="100,100">Ember the Groundhog&#39;s Home
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[You check the map and see that your home is located at the bottom of the town burrow. You decide that you would add your name on the map later. You are excited to see your new home. Seems like you will have new neighbors soon too with all the openings. As you look to the right of the bulletin board, you see a missing resident poster attached to the wall. You suspect that Willow is taking care of the situation and the resident must have just gotten lost while coming back to Napeteccas. You decide to [[continue on-&gt;community burrow]]. ]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Amara the badger" tags="amara" position="518,301" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Amara the Badger&#39;s Home&#39;&#39;]&lt;/div&gt;
 
-While walking through the passage, you feel as though you are stepping in pools of mud.
-&quot;Welcome. I am sorry for the mess. Since I take care of the construction here in the burrow, I am always dragging more durt and mud into my home. It has been very busy here which I am sure Willow has told you. If you want to make any changes to your home, you can just pass along the message to Willow. We hope you feel comfortable and safe in your new home.&quot;
-You thank Ember but you feel like she is too stressed to have a conversation at this moment. You can go look into [[Amara the badger]]&#39;s home. You can pass through to [[Ayden the gopher]]&#39;s home.</tw-passagedata><tw-passagedata pid="10" name="Evie the rabbit" tags="" position="853,450" size="100,100">Evie the Rabbit&#39;s Home
-You pass through to Evie the Rabbit&#39;s old home. It is cold in the room. Evie seems to have left some of her things during the move. You trip over what seems to be a twig but it&#39;s really too dark to see anything very well. You become a little nervous and prefer to keep on moving. You can go to [[Elsie the raccoon]]&#39;s home to check in. You can keep [[Roman the armadillo]] company. You can go to see [[Finn the skunk]] since they are home. You can go into your [[new home]] to look around. You can go over to the empty home of [[Sawyer the mole]].</tw-passagedata><tw-passagedata pid="11" name="Finn the skunk" tags="" position="716,449" size="100,100">Finn the Skunk&#39;s Home
-As you walk into Finn the skunk&#39;s home, you feel a sense of warmth that you have been looking for. You feel relaxed.
-&quot;Hello there. I hope you are enjoying your new home. We all hope that you feel welcome here. We all take up a role here in the Napeteccas burrow. I am known for taking care of the young ones so let me know if I can ever help out.&quot;
-You thank Finn for his kindness. Although you have a temptation to stay, you don&#39;t want to intrude much longer. You can go to [[Roman the armadillo]]&#39;s home. You can go to [[Willow the prairie dog]]&#39;s home to see if she has returned. You can go into your [[new home]]. You can go to [[Evie the rabbit]]&#39;s old home which looks pitch black compared to Finn&#39;s home.</tw-passagedata><tw-passagedata pid="12" name="Sawyer the mole" tags="" position="992,542" size="100,100">Sawyer the Mole&#39;s Home
-As you walk in, you feel like you aren&#39;t in Napeteccas anymore. It is cold and dirty here. You can hardly see anything. However, you heard something from far away. You are scared but also curious why Sawyer&#39;s old home is like this. You notice something in the corner. You can head over to the [[corner -&gt;empty]] even though you are scared. You can go visit [[Elsie the raccoon]]&#39;s home to get away from the complete darkness. You can go to [[Evie the rabbit]]&#39;s home which is closer to other neighbors.</tw-passagedata><tw-passagedata pid="13" name="new home" tags="" position="638,600" size="100,100">Your New Home
-You are happy with how the room looks but notice that you will have to take some time to clean it up. There seems to be a draft coming from somewhere in the room so you will probably have to get help on the issue when things calm down here in the burrow. You put some of your things away. You are overwhelmed by the system here in Napeteccas but know that this will feel like home very soon. You can stay and continue to unpack. You can head over to [[Evie the rabbit]]&#39;s which seems to be where the draft is coming from. You can go to [[Finn the skunk]]&#39;s home which is inviting. You can go talk to [[Ayden the gopher]].</tw-passagedata><tw-passagedata pid="14" name="getting darker" tags="" position="1089,281" size="100,100">Dark, Empty and Cold
-You dig through but realize that, as you do, the passage is closing behind you due to the mud. You finally get to the next home. At this point you don&#39;t know where you are. It is so dark. You hear the sound getting closer. It seems to be coming from the [[next abandoned home-&gt;snake]].
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you walk through the passage, you begin to see many leaves coating the floor. As you enter, everything is very well organized. Your feet feel relaxed as you step on the leaves that cusheon the floor. &quot;Hello new neighbor. I&#39;m sure you will like it here. We try our best to take care of one another. If you would like, I would be glad to help you set up your new home.&quot; You thank Amara for the offer and praise how beautiful her home is. You decide to keep going. You can go check on the map in the [[community burrow]]. [[Roman the armadillo]] has a wonderful aroma coming from his home. You can pass through [[Willow the prairie dog]]&#39;s room even though she seem to be working outside her home still. You can check up on [[Ayden the gopher]] to see if he found anything interesting. You could visit [[Ember the groundhog]] who you have heard helps to expand Napeteccas.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="Roman the armadillo" tags="roman" position="677,298" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Roman the Armadillo&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you walk through the passage, you realize that you are hungry. There is an amazing smell of food as you get closer. You walk in to see a lot of baked goods around Roman. &quot;Hello neighbor. I hope you are finding your way through our burrow well. If you want to grab a bite you are free to take anything you would like. As you can tell, I love eating sweet treats.&quot; You take a crumb from what seems to be a muffin and head on your way. You can head to the [[community burrow]] to get directions. You can pop in to [[Elsie the raccoon]]&#39;s home and look around. You can go visit [[Evie the rabbit]]&#39;s home but it seems like she doesn&#39;t live in Napeteccas anymore. You can head down to [[Finn the skunk]]&#39;s home to see how he are doing. You can go to [[Willow the prairie dog]]&#39;s home. You can go to chat with [[Amara the badger]].]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="Elsie the raccoon" tags="elsie" position="827,300" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Elsie the Raccoon&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you pass through the tunnel you feel like you are intruding into a stranger&#39;s home. However, you see a picture of Elsie in the room and seem to recognize her. As you walk around, you hear something coming from the other side of the walls. You assume its from one of your neighbor&#39;s homes. You become a little uncomfortable and realize that you should keep on moving forward. You can go back to the [[community burrow]]. You can head to what used to be [[Sawyer the mole]]&#39;s home. You can go see [[Evie the rabbit]]&#39;s home which seems to be completely dark. You can visit [[Roman the armadillo]] in his home which smells tempting.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="Willow the prairie dog" tags="willow" position="580,448" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Willow the Prairie Dog&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you enter the room, you see just how frantic Willow must be with work. There are papers and dirt lying everywhere. You pick up a couple papers off the floor. You wonder how much stress she must be dealing with. You decide that you will join the next community council meeting and volunteer to help out to take some pressure off of her hands. You can go check what kind of food [[Roman the armadillo]] has in his home. You can go talk to [[Amara the badger]] about your new home. Your can go to [[Ayden the gopher]]&#39;s home. You can go to [[Finn the skunk]]&#39;s inviting home.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="Ayden the gopher" tags="ayden" position="439,449" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Ayden the Gopher&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&quot;Hello. I hope the move to your new home was easy. I have a lot of food here so feel free to take anything you would like. I normally collect food for the burrow. I know it isn&#39;t easy moving to a new burrow so if there is anything I can do to take away any stress, just ask. It seems like a lot of the neighbors are heading out quickly without a warning recently and we hope that they didn&#39;t feel cut off from the community. We just want you to know that we hope you stay with us and feel like you belong.&quot; You thank Ayden for his kind words and pick up some food. You can go to see [[Amara the badger]]. You can talk to [[Ember the groundhog]]. You can go check into you [[new home]]. You can to visit [[Willow the prairie dog]]&#39;s home.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="Ember the groundhog" tags="ember" position="301,449" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Ember the Groundhog&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[While walking through the passage, you feel as though you are stepping in pools of mud. &quot;Welcome. I am sorry for the mess. Since I take care of the construction here in the burrow, I am always dragging more durt and mud into my home. It has been very busy here which I am sure Willow has told you. If you want to make any changes to your home, you can just pass along the message to Willow. We hope you feel comfortable and safe in your new home.&quot; You thank Ember but you feel like she is too stressed to have a conversation at this moment. You can go look into [[Amara the badger]]&#39;s home. You can pass through to [[Ayden the gopher]]&#39;s home.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="Evie the rabbit" tags="evie" position="853,450" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Evie the Rabbit&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[You pass through to Evie the Rabbit&#39;s old home. It is cold in the room. Evie seems to have left some of her things during the move. You trip over what seems to be a twig but it&#39;s really too dark to see anything very well. You become a little nervous and prefer to keep on moving. You can go to [[Elsie the raccoon]]&#39;s home to check in. You can keep [[Roman the armadillo]] company. You can go to see [[Finn the skunk]] since they are home. You can go into your [[new home]] to look around. You can go over to the empty home of [[Sawyer the mole]].]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Finn the skunk" tags="finn" position="717,449" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Finn the Skunk&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you walk into Finn the skunk&#39;s home, you feel a sense of warmth that you have been looking for. You feel relaxed. &quot;Hello there. I hope you are enjoying your new home. We all hope that you feel welcome here. We all take up a role here in the Napeteccas burrow. I am known for taking care of the young ones so let me know if I can ever help out.&quot; You thank Finn for his kindness. Although you have a temptation to stay, you don&#39;t want to intrude much longer. You can go to [[Roman the armadillo]]&#39;s home. You can go to [[Willow the prairie dog]]&#39;s home to see if she has returned. You can go into your [[new home]]. You can go to [[Evie the rabbit]]&#39;s old home which looks pitch black compared to Finn&#39;s home.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="Sawyer the mole" tags="sawyer" position="993,543" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Sawyer the Mole&#39;s Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you walk in, you feel like you aren&#39;t in Napeteccas anymore. It is cold and dirty here. You can hardly see anything. However, you heard something from far away. You are scared but also curious why Sawyer&#39;s old home is like this. You notice something in the corner. You can head over to the [[corner -&gt;empty]] even though you are scared. You can go visit [[Elsie the raccoon]]&#39;s home to get away from the complete darkness. You can go to [[Evie the rabbit]]&#39;s home which is closer to other neighbors.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="new home" tags="newhome" position="638,600" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Your New Home&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[You are happy with how the room looks but notice that you will have to take some time to clean it up. There seems to be a draft coming from somewhere in the room so you will probably have to get help on the issue when things calm down here in the burrow. You put some of your things away. You are overwhelmed by the system here in Napeteccas but know that this will feel like home very soon. You can stay and continue to unpack. You can head over to [[Evie the rabbit]]&#39;s which seems to be where the draft is coming from. You can go to [[Finn the skunk]]&#39;s home which is inviting. You can go talk to [[Ayden the gopher]].]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="14" name="getting darker" tags="dark" position="1089,280" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Dark, Empty and Cold&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[You dig through but realize that, as you do, the passage is closing behind you due to the mud. You finally get to the next home. At this point you don&#39;t know where you are. It is so dark. You hear the sound getting closer. It seems to be coming from the [[next abandoned home-&gt;snake]].
 Is it worth it, though?
 
 It might just be best to dig in the opposite directing of sound and hope to head back to [[Napateccas-&gt;you feel confused]].
-What should you do?</tw-passagedata><tw-passagedata pid="15" name="empty" tags="" position="1092,406" size="100,100">Empty Room
-You realize that there is another empty room attached to Sawyer the mole&#39;s home. You go in since you are intrigued but you feel like you have goosebumbs spreading all over your body out of fear. You hear the sound become louder. You feel around the room and realize that the wall across from the entrance is covered up with dirt and mud. You don&#39;t understand why these homes are being covered up. You can dig your way through to the next abandoned home to find out what the sound is.
+What should you do?]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="15" name="empty" tags="empty" position="1092,406" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Empty Room&#39;&#39;]&lt;/div&gt;
+
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[You realize that there is another empty room attached to Sawyer the mole&#39;s home. You go in since you are intrigued but you feel like you have goosebumbs spreading all over your body out of fear. You hear the sound become louder. You feel around the room and realize that the wall across from the entrance is covered up with dirt and mud. You don&#39;t understand why these homes are being covered up. You can dig your way through to the next abandoned home to find out what the sound is.
 Do you really want to [[continue -&gt;getting darker]]?
-Or should you [[go back -&gt;Sawyer the mole]]?</tw-passagedata><tw-passagedata pid="16" name="snake" tags="" position="1080,154" size="100,100">You dig through and reach the room where the sound is coming from. What is it? 
+Or should you [[go back -&gt;Sawyer the mole]]?]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="snake" tags="snake" position="1079,154" size="100,100">
+
+
+&lt;div class=&quot;snakemessage&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[You dig through and reach the room where the sound is coming from. What is it? 
 You don&#39;t have anywhere to turn to. You are trapped but with what?
 You are so petrified, you can&#39;t make a single move.
 You feel your body clench and feel as though you can&#39;t breathe.
@@ -86,14 +224,15 @@ You yell for help but...
 
 
 You open your eyes and see the snake in front of you. It&#39;s over.
+]&lt;/div&gt;
 
 
+</tw-passagedata><tw-passagedata pid="17" name="you feel confused" tags="confused" position="944,174" size="100,100">&lt;div class=&quot;passage&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-style:&quot;fidget&quot;)[&#39;&#39;Lost and Confused&#39;&#39;]&lt;/div&gt;
 
-
-
-</tw-passagedata><tw-passagedata pid="17" name="you feel confused" tags="" position="945,174" size="100,100">Lost and Confused
-As you head back, you feel so confused as to why you followed this unknown sound. Maybe it is best to just leave it alone. It seems like Willow has taken care of the situation. You tell yourself that you must have just imagined everything. They are just covering up homes that are collapsing.
-You continue to dig and reach [[Elsie the raccoon]]&#39;s room.</tw-passagedata></tw-storydata>
+&lt;div class=&quot;message&quot;&gt;(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[As you head back, you feel so confused as to why you followed this unknown sound. Maybe it is best to just leave it alone. It seems like Willow has taken care of the situation. You tell yourself that you must have just imagined everything. They are just covering up homes that are collapsing.
+You continue to dig and reach [[Elsie the raccoon]]&#39;s room.]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
